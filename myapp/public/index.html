@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Sunrise & Sunset</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <div id="header">
+    <h1 id="title">What time did the sun rise and set for you today?</h1>
+    Find the latitude and longitude of your current location with this link:
+    <br><a href="https://www.latlong.net/" id="link">Latitude and Longitude</a><br>
+    <br>Times are displayed in Coordinated Universal Time (UTC).
+    </div>
+    <form id="location">
+        <div id="input">
+        <h1>Enter your latitude:</h1><input type="text" id="latitude" value="">
+        <h1>Enter your longitude:</h1><input type="text" id="longitude" value="">
+        <br><br><button id="button">Submit</button><br><br></div>
+        <br><p id="results"></p>
+    </form>
+
+    <script>
+        $("#button").click(function(event) {
+            event.preventDefault();
+            var url = "json?lat=" + $("#latitude").val();
+            url += "&lng=" + $("#longitude").val();
+            $.getJSON(url, function(data) {
+                var everything;
+                everything = "Sunrise was at " + data.results.sunrise + "<br>";
+                everything += "Sunset was at " + data.results.sunset + "<br>";
+                everything += "Solar Noon was at " + data.results.solar_noon;
+                $("#results").html(everything);
+            });
+        });
+    </script>
+</body>
+
+</html>

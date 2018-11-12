@@ -1,0 +1,203 @@
+nohup: ignoring input
+Running on 4200
+[0mGET /index.html [32m200 [0m7.820 ms - 1460[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.910 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m393.896 ms - 1122[0m
+[0mGET /index.html [32m200 [0m7.930 ms - 1478[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.179 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m37.890 ms - 1122[0m
+query  { lat: '40.235119', lng: '-111.662193' }
+https://api.sunrise-sunset.org/json?lat=40.235119&lng=-111.662193&date=today
+[0mGET /json?lat=40.235119&lng=-111.662193 [32m200 [0m297.891 ms - -[0m
+[0mGET /index.html [36m304 [0m1.476 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.576 ms - -[0m
+[0mGET /index.html [36m304 [0m0.454 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.366 ms - -[0m
+[0mGET /index.html [32m200 [0m1.329 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.051 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m41.229 ms - 1122[0m
+[0mGET /index.html [36m304 [0m0.463 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.353 ms - -[0m
+query  { lat: '40.233845', lng: '-111.658531' }
+https://api.sunrise-sunset.org/json?lat=40.233845&lng=-111.658531&date=today
+[0mGET /json?lat=40.233845&lng=-111.658531 [32m200 [0m310.462 ms - -[0m
+[0mGET /weather.html [33m404 [0m39.316 ms - 1122[0m
+[0mGET / [32m200 [0m40.657 ms - 1474[0m
+[0mGET /favicon.ico [33m404 [0m52.893 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.608 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.613 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m27.475 ms - 1122[0m
+[0mGET /weather.html [33m404 [0m12.994 ms - 1122[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.348 ms - -[0m
+[0mGET /index.html [36m304 [0m0.321 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.312 ms - -[0m
+query  { lat: '40.233845', lng: '-111.658531' }
+https://api.sunrise-sunset.org/json?lat=40.233845&lng=-111.658531&date=today
+[0mGET /json?lat=40.233845&lng=-111.658531 [32m200 [0m298.186 ms - -[0m
+[0mGET /weather.html [33m404 [0m20.878 ms - 1122[0m
+[0mGET / [32m200 [0m0.485 ms - 1474[0m
+[0mGET /favicon.ico [33m404 [0m20.610 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.485 ms - 1474[0m
+[0mGET /index.html [36m304 [0m0.638 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.347 ms - -[0m
+[0mGET /index.html [32m200 [0m0.539 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.545 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m15.122 ms - 1122[0m
+[0mGET /index.html [32m200 [0m1.236 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.476 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m13.503 ms - 1122[0m
+[0mGET /favicon.ico [33m404 [0m12.824 ms - 1122[0m
+[0mGET /index.html [32m200 [0m1.166 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.643 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m11.069 ms - 1122[0m
+query  { lat: '1000', lng: '-2000' }
+https://api.sunrise-sunset.org/json?lat=1000&lng=-2000&date=today
+[0mGET /json?lat=1000&lng=-2000 [32m200 [0m283.053 ms - -[0m
+query  { lat: '50', lng: '60' }
+https://api.sunrise-sunset.org/json?lat=50&lng=60&date=today
+[0mGET /json?lat=50&lng=60 [32m200 [0m209.113 ms - -[0m
+[0mGET /index.html [36m304 [0m0.377 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.356 ms - -[0m
+[0mGET /index.html [32m200 [0m0.529 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.530 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m14.660 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.513 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.515 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m16.133 ms - 1122[0m
+query  { lat: '40.233845', lng: '-111.6' }
+https://api.sunrise-sunset.org/json?lat=40.233845&lng=-111.6&date=today
+[0mGET /json?lat=40.233845&lng=-111.6 [32m200 [0m339.829 ms - -[0m
+query  { lat: '40.233845', lng: '-111.6' }
+https://api.sunrise-sunset.org/json?lat=40.233845&lng=-111.6&date=today
+[0mGET /json?lat=40.233845&lng=-111.6 [32m200 [0m210.368 ms - -[0m
+query  { lat: '40.233845', lng: '-111.6' }
+https://api.sunrise-sunset.org/json?lat=40.233845&lng=-111.6&date=today
+[0mGET /json?lat=40.233845&lng=-111.6 [32m200 [0m211.335 ms - -[0m
+query  { lat: '40.2', lng: '-111.6' }
+https://api.sunrise-sunset.org/json?lat=40.2&lng=-111.6&date=today
+[0mGET /json?lat=40.2&lng=-111.6 [32m200 [0m183.890 ms - -[0m
+query  { lat: '40.2', lng: '-111.6' }
+https://api.sunrise-sunset.org/json?lat=40.2&lng=-111.6&date=today
+[0mGET /json?lat=40.2&lng=-111.6 [32m200 [0m210.323 ms - -[0m
+query  { lat: '40.2', lng: '-111.6' }
+https://api.sunrise-sunset.org/json?lat=40.2&lng=-111.6&date=today
+[0mGET /json?lat=40.2&lng=-111.6 [32m200 [0m210.950 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.315 ms - -[0m
+query  { lat: '40.2', lng: '-111.6' }
+https://api.sunrise-sunset.org/json?lat=40.2&lng=-111.6&date=today
+[0mGET /json?lat=40.2&lng=-111.6 [32m200 [0m183.790 ms - -[0m
+[0mGET /index.html [32m200 [0m0.500 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.571 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m8.210 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.864 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.514 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m10.671 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.485 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.791 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m10.010 ms - 1122[0m
+query  { lat: '39.320980', lng: '-111.093735' }
+https://api.sunrise-sunset.org/json?lat=39.320980&lng=-111.093735&date=today
+[0mGET /json?lat=39.320980&lng=-111.093735 [32m200 [0m323.104 ms - -[0m
+query  { lat: '40.243865', lng: '-111.662812' }
+https://api.sunrise-sunset.org/json?lat=40.243865&lng=-111.662812&date=today
+[0mGET /json?lat=40.243865&lng=-111.662812 [32m200 [0m228.990 ms - -[0m
+[0mGET /index.html [32m200 [0m0.486 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.533 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m13.811 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.514 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.523 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m9.676 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.522 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.572 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m6.509 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.514 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.492 ms - 501[0m
+[0mGET /index.html [32m200 [0m0.444 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.481 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m6.733 ms - 1122[0m
+[0mGET /favicon.ico [33m404 [0m10.933 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.471 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.528 ms - 501[0m
+[0mGET /index.html [32m200 [0m1.012 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.992 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m7.934 ms - 1122[0m
+[0mGET /favicon.ico [33m404 [0m6.266 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.482 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.512 ms - 501[0m
+[0mGET /index.html [32m200 [0m0.475 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.519 ms - 501[0m
+[0mGET /index.html [32m200 [0m0.487 ms - 1474[0m
+[0mGET /favicon.ico [33m404 [0m5.295 ms - 1122[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.495 ms - 501[0m
+[0mGET /index.html [32m200 [0m0.457 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.476 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m7.920 ms - 1122[0m
+[0mGET /favicon.ico [33m404 [0m5.385 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.534 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.763 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m12.129 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.654 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.035 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m5.502 ms - 1122[0m
+query  { lat: '40.2', lng: '25.3' }
+https://api.sunrise-sunset.org/json?lat=40.2&lng=25.3&date=today
+[0mGET /json?lat=40.2&lng=25.3 [32m200 [0m275.604 ms - -[0m
+query  { lat: '-45', lng: '123' }
+https://api.sunrise-sunset.org/json?lat=-45&lng=123&date=today
+[0mGET /json?lat=-45&lng=123 [32m200 [0m208.558 ms - -[0m
+query  { lat: '42', lng: '42' }
+https://api.sunrise-sunset.org/json?lat=42&lng=42&date=today
+query  { lat: '40.233845', lng: '-111.658531' }
+https://api.sunrise-sunset.org/json?lat=40.233845&lng=-111.658531&date=today
+[0mGET /json?lat=42&lng=42 [32m200 [0m195.041 ms - -[0m
+[0mGET /json?lat=40.233845&lng=-111.658531 [32m200 [0m210.824 ms - -[0m
+query  { lat: '40.569710', lng: '-111.897280' }
+https://api.sunrise-sunset.org/json?lat=40.569710&lng=-111.897280&date=today
+[0mGET /json?lat=40.569710&lng=-111.897280 [32m200 [0m209.874 ms - -[0m
+query  { lat: '40.233845', lng: '-111.658531' }
+https://api.sunrise-sunset.org/json?lat=40.233845&lng=-111.658531&date=today
+[0mGET /json?lat=40.233845&lng=-111.658531 [32m200 [0m190.620 ms - -[0m
+[0mGET /index.html [32m200 [0m0.534 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.515 ms - 501[0m
+[0mGET /index.html [32m200 [0m0.427 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.489 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m5.747 ms - 1122[0m
+[0mGET /favicon.ico [33m404 [0m6.163 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.443 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.545 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m7.959 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.464 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.508 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m5.446 ms - 1122[0m
+[0mGET /index.html [36m304 [0m0.308 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.929 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m7.514 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.513 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.923 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m5.939 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.486 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.485 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m5.302 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.471 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.513 ms - 501[0m
+[0mGET / [32m200 [0m0.500 ms - 1474[0m
+[0mGET /weather.html [33m404 [0m7.623 ms - 1122[0m
+[0mGET /favicon.ico [33m404 [0m4.792 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.533 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.495 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m6.856 ms - 1122[0m
+[0mGET /index.html [32m200 [0m0.519 ms - 1474[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.484 ms - 501[0m
+[0mGET /favicon.ico [33m404 [0m5.180 ms - 1122[0m
+[0mGET /weather.html [33m404 [0m12.506 ms - 1122[0m
+[0mGET / [32m200 [0m3.315 ms - 1474[0m
+[0mGET /favicon.ico [33m404 [0m15.619 ms - 1122[0m
+[0mGET /weather.html [33m404 [0m13.325 ms - 1122[0m
+[0mGET / [32m200 [0m14.739 ms - 1474[0m
+[0mGET /favicon.ico [33m404 [0m4.790 ms - 1122[0m
+[0mGET /weather.html [33m404 [0m7.100 ms - 1122[0m
+[0mGET / [32m200 [0m0.373 ms - 1474[0m
+[0mGET /favicon.ico [33m404 [0m6.954 ms - 1122[0m
+[0mGET / [32m200 [0m0.500 ms - 1474[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.337 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m5.309 ms - 1122[0m

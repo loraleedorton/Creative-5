@@ -1,0 +1,33 @@
+html { 
+  background:  url(https://media0.giphy.com/media/duoBP0IhdbR5G7ywYg/giphy.gif?cid=3640f6095bda4fbf496c363336154694) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+body {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#header {
+  margin:auto;
+  text-align:center;
+}
+
+#title {
+  font-size:300%;
+}
+
+#link {
+  color:white;
+}
+
+#input {
+  float:left;
+}
+
+#results {
+  float:right;
+  font-size:200%;
+}
