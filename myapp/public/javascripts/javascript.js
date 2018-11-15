@@ -192,7 +192,7 @@ function CardController($scope, $timeout) {
 			arrayData.sort();
 			console.log("Array data post-sort", arrayData);
 			var everything = "";
-			for (var i = 1; i < 11; i++) {
+			for (var i = 0; i < 10; i++) {
 				everything += "<p>" + (arrayData[i])/1000 + " s" + "</p>";
 			}
 			$("#leaders").html(everything);
