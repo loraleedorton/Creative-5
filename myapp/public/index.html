@@ -1,40 +1,51 @@
-<html>
+<html ng-app="cards">
 
 <head>
-    <title>Sunrise & Sunset</title>
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<title>Memory in a Minute</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js" type="text/javascript"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="javascripts/javascript.js"></script>
 </head>
 
 <body>
-    <div id="header">
-    <h1 id="title">What time did the sun rise and set for you today?</h1>
-    Find the latitude and longitude of your current location with this link:
-    <br><a href="https://www.latlong.net/" id="link">Latitude and Longitude</a><br>
-    <br>Times are displayed in Coordinated Universal Time (UTC).
-    </div>
-    <form id="location">
-        <div id="input">
-        <h1>Enter your latitude:</h1><input type="text" id="latitude" value="">
-        <h1>Enter your longitude:</h1><input type="text" id="longitude" value="">
-        <br><br><button id="button">Submit</button><br><br></div>
-        <br><p id="results"></p>
-    </form>
-
-    <script>
-        $("#button").click(function(event) {
-            event.preventDefault();
-            var url = "json?lat=" + $("#latitude").val();
-            url += "&lng=" + $("#longitude").val();
-            $.getJSON(url, function(data) {
-                var everything;
-                everything = "Sunrise was at " + data.results.sunrise + "<br>";
-                everything += "Sunset was at " + data.results.sunset + "<br>";
-                everything += "Solar Noon was at " + data.results.solar_noon;
-                $("#results").html(everything);
-            });
-        });
-    </script>
-</body>
+	<div class="cntr" ng-controller="CardController">
+		<div class="title">
+			<h1>
+				<font size="29">
+					<center>Memory in a Minute</center>
+				</font>
+			</h1>
+		</div>
+		<hr>
+		<div id="timer">
+			{{timeLimit | date: 'm:ss'}}
+		</div>
+		<div class="startbtn">
+			<button type="button" class="btn btn-default btn-lg" ng-disabled="inGame == true" ng-click="start()">Start</button>
+		</div>
+		<table class="table-top">
+			<tr ng-repeat="row in deck.rows">
+				<td ng-repeat="card in row.cards">
+					<div class="card_container {{!card.isFaceUp ? '' : 'flip'}}" ng-click="isGuarding || check(card)">
+						<div class="card shadow">
+							<div class="front face"></div>
+							<div class="back face text-center pagination-center">
+								<p> {{card.item}} </p>
+							</div>
+						</div>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<div id="leaderboard">
+			<h1>Top Ten Times of All Time</h1>
+			<p id="timeHeader">Time Completed</p>
+			<span id="leaders"></span>
+		</div>
+	</div>
 
 </html>
